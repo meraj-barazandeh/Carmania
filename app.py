@@ -24,7 +24,7 @@ def create_app():
     migrate = Migrate(app, db)
     jwt = JWTManager(app)
 
-    # ثبت Blueprintها
+    # Blueprint
     app.register_blueprint(auth_bp, url_prefix="/auth")
     app.register_blueprint(cars_bp, url_prefix="/cars")
     app.register_blueprint(service_bp, url_prefix="/service")
