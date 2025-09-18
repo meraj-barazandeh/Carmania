@@ -29,7 +29,7 @@ CarMania/
 ## Installation
 
 ```bash
-git clone <repository_url>
+git clone https://github.com/meraj-barazandeh/Carmania.git
 cd CarMania
 python -m venv venv
 source venv/bin/activate       # Linux / macOS
