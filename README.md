@@ -8,7 +8,6 @@
 * Add, view, and manage cars
 * Record car services and maintenance history
 * Secure authentication with JWT tokens
-* Easily extendable for future functionality
 
 ## Project Structure
 
